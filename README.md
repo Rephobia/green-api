@@ -25,6 +25,7 @@
 - **Конфигурация** через библиотеку `github.com/ilyakaznacheev/cleanenv` (поддержка `.env` + YAML)
 - **Чистая обработка ошибок** с единым форматом ответов
 - **Структура проекта** соответствует принципам Clean Architecture / Layered Architecture
+- **Линтер** - golangci https://github.com/golangci/golangci-lint
 - **Task runner** - Taskfile `https://github.com/go-task/task`
 
 ## Как запустить локально

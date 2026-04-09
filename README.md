@@ -35,7 +35,6 @@ git clone https://github.com/Rephobia/green-api.git
 cd green-api
 
 # Задать .env
-
 cp .env.example .env
 
 # Установить зависимости

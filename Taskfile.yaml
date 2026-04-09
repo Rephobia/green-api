@@ -1,0 +1,23 @@
+version: '3'
+
+dotenv: ['.env']
+
+tasks:
+  default:
+    cmds:
+      - task -l
+    
+  lint:
+    desc: lint source
+    cmds:
+      - golangci-lint run {{.CLI_ARGS}}
+
+  test:
+    desc: Run test
+    cmds:
+      - go test -race -count=1 ./... -v
+
+  serve:
+    desc: Run server
+    cmds:
+      - go run cmd/app/main.go
